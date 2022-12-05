@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="styles.css" rel="stylesheet" type="text/css"/>
+	<title>X-vs-O</title>
+</head>
+<body>
+	<div class="wrapper flex">
+		<div class="settings flex col">
+			<span>режим игры</span>
+			<div class="container">
+				<button id="set_bot">С КОМПОМ</button>
+				<button id="set_2players">С ДРУГОМ</button>
+			</div>
+		</div>
+		<div class="score flex">
+			<p>X: <span id="xWins">0</span> vs O: <span id="oWins">0</span><br>ходит: <span id="turn">х</span></p>
+		</div>
+		
+		<div class="alert flex"></div>
+		<div class="bg"></div>
+		<div class="container">
+			<div class="row">
+				<input type="button" class="box" id="a1" value=""></input>
+				<input type="button" class="box" id="a2" value=""></input>
+				<input type="button" class="box" id="a3" value=""></input>
+			</div>
+			<div class="row">
+				<input type="button" class="box" id="b1" value=""></input>
+				<input type="button" class="box" id="b2" value=""></input>
+				<input type="button" class="box" id="b3" value=""></input>
+			</div>
+			<div class="row">
+				<input type="button" class="box" id="c1" value=""></input>
+				<input type="button" class="box" id="c2" value=""></input>
+				<input type="button" class="box" id="c3" value=""></input>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
